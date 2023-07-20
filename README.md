@@ -10,7 +10,7 @@
 
 这里只是我个人的开发环境：
 
-本地配置：JDK1.8、Tomcat10.0.22、Scala 2.11.8
+本地配置：JDK1.8、Tomcat 8.5.83、Scala 2.11.8
 
 集群环境（CentOS 6.8）：Hadoop 2.7.4、Zookeeper 3.4.10、Spark 2.3.2、Kafka 2.11、Redis 3.2.8
 
@@ -30,7 +30,7 @@
 
 ![p3](Document/p3.png)
 
-
+(纠正：这里的Tomcat Server不能使用10版本的，因为此仓库提供的配置服务并不能支持10版本及以上，推荐下载Tomcat 8.5.83)
 
 ### 运行步骤
 
