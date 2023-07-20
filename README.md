@@ -1,0 +1,2 @@
+# RealtimeUi
+模拟生成商品订单数据，使用kafka接收数据，Spark Streaming计算并统计数据，同时使用了WebSocket传输数据到前端，采用JSP及Tomcat服务器搭建可视化页面，以Echarts/JQuery辅助页面开发。
