@@ -14,7 +14,7 @@
 
 集群环境（CentOS 6.8）：Hadoop 2.7.4、Zookeeper 3.4.10、Spark 2.3.2、Kafka 2.11、Redis 3.2.8
 
-![p1](.\Document\p1.png)
+![p1](Document/p1.png)
 
 
 
@@ -24,11 +24,11 @@
 
 1.安装Smart Tomcat插件（Tomcat 源码包需要到官网下载 [Apache Tomcat®](https://tomcat.apache.org/ )）
 
-![p2](.\Document\p2.png)
+![p2](Document/p2.png)
 
 2.配置Tomcat服务
 
-![p3](.\Document\p3.png)
+![p3](Document/p3.png)
 
 
 
@@ -54,21 +54,21 @@
 
 3.运行 PaymentInfoProducer.java (模拟生产数据)
 
-![p4](.\Document\p4.png)
+![p4](Document/p4.png)
 
 回到Kafka中，可以看到以下信息：
 
-![p5](.\Document\p5.png)
+![p5](Document/p5.png)
 
 4.运行StreamingProcessdata.scala（计算并统计数据）
 
-![p6](.\Document\p6.png)
+![p6](Document/p6.png)
 
 5.启动本地Tomcat（提供Web环境）
 
-![p7](.\Document\p7.png)
+![p7](Document/p7.png)
 
-![p7](.\Document\p8.png)
+![p7](Document/p8.png)
 
 
 
@@ -76,5 +76,5 @@
 
 根据Tomcat日志提供的本地Web地址，在浏览器中输入 “ http://locathost:8080/RealtimeUi/index ”  , 可以看到对应的实时运算统计结果：
 
-![p9](.\Document\p9.png)
+![p9](Document/p9.png)
 
